@@ -17,15 +17,15 @@
     <PackageId>Platy.Aspire.Hosting.Mockoon</PackageId>
     <Title>Platy.Aspire.Hosting.Mockoon</Title>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Trelston Moraes (@tremorscript)</Authors>
-    <Company>tremorscript.com</Company>
+    <Authors>Trelston Moraes (@platyscript)</Authors>
+    <Company>platyscript.com</Company>
     <Description>Mockoon support for .NET Aspire</Description>
     <Summary>Mockoon support for .NET Aspire</Summary>
     <PackageProjectUrl>Platy.Aspire.Hosting.Mockoon</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <IncludeContentInPack>true</IncludeContentInPack>
-    <RepositoryUrl>https://github.com/tremorscript/Platy.Aspire.Hosting.Mockoon</RepositoryUrl>
+    <RepositoryUrl>https://github.com/platyscript/Platy.Aspire.Hosting.Mockoon</RepositoryUrl>
     <PackageTags>aspire;integration;hosting;mockoon</PackageTags>
     <Version>0.1.3</Version>
     <PackageReleaseNotes>
