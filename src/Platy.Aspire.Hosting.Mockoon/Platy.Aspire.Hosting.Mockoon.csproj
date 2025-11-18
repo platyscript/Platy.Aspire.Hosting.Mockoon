@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting"/>
+    <PackageReference Include="Azure.Identity"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub"/>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AssemblyName>Platy.Aspire.Hosting.Mockoon</AssemblyName>
+    <PackageId>Platy.Aspire.Hosting.Mockoon</PackageId>
+    <Title>Platy.Aspire.Hosting.Mockoon</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Trelston Moraes (@tremorscript)</Authors>
+    <Company>tremorscript.com</Company>
+    <Description>Mockoon support for .NET Aspire</Description>
+    <Summary>Mockoon support for .NET Aspire</Summary>
+    <PackageProjectUrl>Platy.Aspire.Hosting.Mockoon</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <RepositoryUrl>https://github.com/tremorscript/Platy.Aspire.Hosting.Mockoon</RepositoryUrl>
+    <PackageTags>aspire;integration;hosting;mockoon</PackageTags>
+    <Version>0.1.3</Version>
+    <PackageReleaseNotes>
+      * Net9
+    </PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(SolutionDir)LICENSE" Pack="true" PackagePath=""/>
+    <None Include="$(SolutionDir)README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>

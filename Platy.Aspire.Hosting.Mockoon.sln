@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBE7D534-7033-4FFC-B315-C435F91ABA39}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+		README.md = README.md
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{375BD4EC-7420-4697-8CD6-11BC1E206C35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DCCA5B47-7E70-480B-B038-3472EC8B965D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platy.Aspire.Hosting.Mockoon", "src\Platy.Aspire.Hosting.Mockoon\Platy.Aspire.Hosting.Mockoon.csproj", "{A31507A1-E1C5-4385-8B8B-36AC03C05240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.AppHost", "tests\Test.AppHost\Test.AppHost.csproj", "{BF1028DD-D24C-4EE7-879C-EE097A5A0042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A31507A1-E1C5-4385-8B8B-36AC03C05240} = {375BD4EC-7420-4697-8CD6-11BC1E206C35}
+		{BF1028DD-D24C-4EE7-879C-EE097A5A0042} = {DCCA5B47-7E70-480B-B038-3472EC8B965D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31507A1-E1C5-4385-8B8B-36AC03C05240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31507A1-E1C5-4385-8B8B-36AC03C05240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31507A1-E1C5-4385-8B8B-36AC03C05240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31507A1-E1C5-4385-8B8B-36AC03C05240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1028DD-D24C-4EE7-879C-EE097A5A0042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1028DD-D24C-4EE7-879C-EE097A5A0042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1028DD-D24C-4EE7-879C-EE097A5A0042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1028DD-D24C-4EE7-879C-EE097A5A0042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
